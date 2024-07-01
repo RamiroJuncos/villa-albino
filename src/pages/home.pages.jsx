@@ -11,7 +11,6 @@ function Home() {
         <div>
             <div className='bg-green-600'></div>
             <Header />
-            <TituloPrincipal />
             <UltimosResultados />
             <Carrousel1 />
             <ProximosPartidos />
