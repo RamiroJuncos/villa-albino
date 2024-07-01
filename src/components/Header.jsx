@@ -15,7 +15,7 @@ const Header = () => {
               <li><a href="#resultados" className='text-black'>Resultados</a></li>
               <li><a href="#fotos" className='text-black'>Fotos</a></li>
               <li><a href="#proximos-partidos" className='text-black'>Próximos Partidos</a></li>
-              <li><a href="#acerca-del-club" className='text-black'>Acerca del Club</a></li>
+              <li><a href="#noticias" className='text-black'>Noticias</a></li>
               <li><a href="#contacto" className='text-black'>Contacto</a></li>
             </ul>
           </nav>
