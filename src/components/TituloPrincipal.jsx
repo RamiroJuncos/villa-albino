@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Foto1 from "../assets/Foto-Titulo-1.jpg";
-import Foto2 from "../assets/Foto-Titulo-2.jpg";
-import Foto3 from "../assets/Foto-Titulo-3.jpg";
+import Foto1 from "../assets/Foto-Titulo.jpg";
+import Foto2 from "../assets/Foto-Uno.jpg";
+import Foto3 from "../assets/camisa.jpeg";
 
 const imagenes = [Foto1, Foto2, Foto3]; // Array con las URLs de las imágenes
 
