@@ -20,16 +20,16 @@ const TituloPrincipal = () => {
   }, []); // El efecto se ejecuta solo una vez al montar el componente
 
   return (
-    <div className="hero min-h-screen border border-gray-300 shadow-md rounded-md p-4" style={{backgroundImage: `url(${imagenes[indiceImagen]})`}}>
-      <div className="hero-overlay bg-opacity-60"></div>
-      <div className="hero-content text-center text-neutral-content">
-        <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold">Villa Albino</h1>
-          <p className="mb-5">Club de Futbol oriundo de la ciudad de Ensenada</p>
-          <button className="btn btn-primary">Más Información</button>
+    <section className="hero min-h-screen bg-cover bg-center relative" style={{backgroundImage: `url(${imagenes[indiceImagen]})`}}>
+      <div className="bg-gray-900 bg-opacity-50 absolute inset-0"></div>
+      <div className="flex items-center justify-center h-full relative">
+        <div className="text-center text-white">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">Villa Albino</h1>
+          <p className="text-lg md:text-xl text-gray-300 mb-6 max-w-md mx-auto">Club de Fútbol oriundo de la ciudad de Ensenada</p>
+          <button className="bg-green-500 text-white py-3 px-6 rounded-md hover:bg-green-600 transition duration-200">Más Información</button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
