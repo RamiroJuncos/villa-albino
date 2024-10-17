@@ -3,7 +3,11 @@ import { GoogleMap, LoadScript } from '@react-google-maps/api';
 
 const Contacto = () => {
   const informacionContacto = {
+<<<<<<< HEAD
+    direccion: 'Calle Principal 123, Ciudad, País',
+=======
     direccion: 'Herminio Masantonio y Perito Moreno, Ensenada, BsAs, Argentina',
+>>>>>>> cbe5d73e7bf5e7a70c90d2f42837096d468884ca
     telefono: '+1234567890',
     correo: 'info@clubdeportivo.com'
   };
