@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 import Carrousel1 from "../components/CarrouselFotos";
->>>>>>> cbe5d73e7bf5e7a70c90d2f42837096d468884ca
-=======
->>>>>>> master
 import Contacto from "../components/Contacto";
 import Header from "../components/Header";
 import Noticias from "../components/Noticias";
@@ -21,6 +15,7 @@ function Home() {
          style={{backgroundImage: `url(${Fondo})`}}>
             <Header />
             <TituloPrincipal/>
+            <Carrousel1/>
             <UltimosResultados />
             <ProximosPartidos />
             <Noticias/>

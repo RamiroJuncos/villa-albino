@@ -11,14 +11,7 @@
   },
   "dependencies": {
     "@react-google-maps/api": "^2.19.3",
-<<<<<<< HEAD
-<<<<<<< HEAD
     "nodemon": "^3.1.4",
-=======
->>>>>>> cbe5d73e7bf5e7a70c90d2f42837096d468884ca
-=======
-    "nodemon": "^3.1.4",
->>>>>>> master
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.24.0"
