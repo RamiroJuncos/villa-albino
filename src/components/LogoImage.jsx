@@ -1,4 +1,3 @@
-import React from 'react';
 import Logo from "../assets/Logo-Club.png"; // Importa el logo del club
 
 const LogoImage = () => {

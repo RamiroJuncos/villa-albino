@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const ProximosPartidos = () => {
   const upcomingMatches = [

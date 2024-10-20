@@ -5,8 +5,8 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <header className="p-4 bg-green-600">
-      <div className="container mx-auto flex justify-between items-center">
+    <div className="bg-green-600 p-4 border-white border border-gray-300 shadow-md rounded-md p-4 sticky top-0" > 
+      <div className="flex justify-between items-center">
         <div className="flex items-center">
           <LogoImage />
           <h1 className="text-white text-2xl font-bold ml-2">Villa Albino</h1> {/* Nuevo: Nombre del club */}
@@ -49,7 +49,7 @@ const Header = () => {
           <button type="button" className="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Iniciar Sesión</button>
         </div>
       </div>
-    </header>
+    </div>
   );
 }
 
