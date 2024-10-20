@@ -1,4 +1,5 @@
 // pages/planilla.pages.js
+import React from 'react';
 
 const Players = () => {
   const players = [

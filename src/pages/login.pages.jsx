@@ -36,7 +36,6 @@ function Login() {
                 navigate('/home');
             } else {
                 setError('Nombre o contraseña incorrectos');
-                
             }
         } catch (err) {
             console.error("Error en el inicio de sesión", err);
@@ -62,8 +61,7 @@ function Login() {
             const data = await response.json();
 
             if (data.success) {
-                setError('usuario registrado con exito');
-                
+                navigate('/home');
             } else {
                 setError('Error en el registro');
             }

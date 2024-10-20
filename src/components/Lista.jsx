@@ -1,3 +1,4 @@
+
 import { FaPlay, FaBan, FaExclamationTriangle } from 'react-icons/fa';
 
 const PlayersTable = () => {

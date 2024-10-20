@@ -1,5 +1,5 @@
 // src/Fixture.js
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 // Supongamos que este es el jugador logueado y su rol
 const currentUser = { id: 1, name: 'Jugador 1', role: 'admin' }; // Cambia el rol a 'user' para simular un jugador normal
