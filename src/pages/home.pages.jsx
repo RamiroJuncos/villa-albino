@@ -14,8 +14,7 @@ function Home() {
              <div className=""
          style={{backgroundImage: `url(${Fondo})`}}>
             <Header />
-            <TituloPrincipal/>
-            <Carrousel1/>
+            <TituloPrincipal />
             <UltimosResultados />
             <ProximosPartidos />
             <Noticias/>

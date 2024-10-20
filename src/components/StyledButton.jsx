@@ -46,6 +46,5 @@ StyledButton.propTypes = {
   innerText: PropTypes.string.isRequired,
   btnType: PropTypes.string.isRequired,
 };
+
 export default StyledButton;
-
-
