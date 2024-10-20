@@ -1,5 +1,3 @@
-import Carrousel1 from "../components/CarrouselFotos";
-import Contacto from "../components/Contacto";
 import Header from "../components/Header";
 import Noticias from "../components/Noticias";
 import PieDePagina from "../components/PiePagina";
@@ -15,11 +13,9 @@ function Home() {
          style={{backgroundImage: `url(${Fondo})`}}>
             <Header />
             <TituloPrincipal/>
-            <Carrousel1/>
             <UltimosResultados />
             <ProximosPartidos />
             <Noticias/>
-            <Contacto />
             <PieDePagina />
         </div>
         </div>
