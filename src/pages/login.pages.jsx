@@ -1,11 +1,11 @@
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import Logo from "../assets/Logo-Club.png";
-import StyledButton from "../components/StyledButton";
-import StyledInput from "../components/StyledInput";
+import StyledButton from "../components/StyledButton"
+import StyledInput from "../components/StyledInput"
 
 
 function Login() {
+<<<<<<< HEAD
+=======
     const [nombre, setNombre] = useState("");
     const [email, setEmail ] = useState("");
     const [password, setPassword] = useState("");
@@ -71,69 +71,16 @@ function Login() {
         }
     };
 
+>>>>>>> main
     return (
         <div className="hero bg-green-700 min-h-screen">
             <div className="hero-content text-center flex flex-col">
-                <img src={Logo} alt="Logo" className="w-44 block drop-shadow-xl" />
-                {isRegistering ? (
-                    <form className="max-w-md" onSubmit={handleRegister}>
-                        <StyledInput 
-                            placeholder={"Ingrese su nombre"} 
-                            textColor={"text-gray"}
-                            value={nombre}
-                            type="text"
-                            onChange={(e) => setNombre(e.target.value)}
-                        />
-                        <StyledInput 
-                            placeholder={"Ingrese su correo electrónico"} 
-                            type="email" 
-                            textColor={"text-gray"}
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                        />
-                        <StyledInput 
-                            placeholder={"Ingrese su contraseña"} 
-                            type="password" 
-                            textColor={"text-gray"}
-                            value={password}
-                            onChange={(e) => setPassword(e.target.value)}
-                        />
-                        <StyledInput 
-                            placeholder={"Confirme su contraseña"} 
-                            type="password" 
-                            textColor={"text-gray"}
-                            value={confirmPassword}
-                            onChange={(e) => setConfirmPassword(e.target.value)}
-                        />
-                        {error && <p className="text-red-500">{error}</p>}
-                        <StyledButton accept innerText={"Registrarse"} btnType={"submit"} />
-                    </form>
-                ) : (
-                    <form className="max-w-md" onSubmit={handleLogin}>
-                        <StyledInput 
-                            placeholder={"Ingrese su nombre"} 
-                            textColor={"text-gray"}
-                            value={nombre}
-                            type="text"
-                            onChange={(e) => setNombre(e.target.value)}
-                        />
-                        <StyledInput 
-                            placeholder={"Ingrese su contraseña"} 
-                            type="password" 
-                            textColor={"text-gray"}
-                            value={password}
-                            onChange={(e) => setPassword(e.target.value)}
-                        />
-                        {error && <p className="text-red-500">{error}</p>}
-                        <StyledButton accept innerText={"Ingresar"} btnType={"submit"} />
-                    </form>
-                )}
-                <button 
-                    className="text-white mt-4 underline"
-                    onClick={() => setIsRegistering(!isRegistering)}
-                >
-                    {isRegistering ? "Ya tienes cuenta? Inicia sesión" : "No tienes cuenta? Regístrate"}
-                </button>
+                <img src={Logo} alt="" className="w-44 block drop-shadow-xl" />
+                <form className="max-w-md" type="submit">
+                    <StyledInput placeholder={"Ingrese su DNI"} BRLabel={"Sin puntos"} textColor={"text-white"}/>
+                    <StyledInput placeholder={"Ingrese su contraseña"} BRLabel={"Olvide mi Contraseña"} type="password" textColor={"text-white"}/>
+                    <StyledButton accept innerText={"Ingresar"} btnType={"submit"} />
+                </form>
             </div>
         </div>
     );
